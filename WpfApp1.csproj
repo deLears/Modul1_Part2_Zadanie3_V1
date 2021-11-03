@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Bold.png" />
+    <None Remove="Italic.png" />
+    <None Remove="Underline.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interface_images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Bold.png" />
+    <Resource Include="Italic.png" />
+    <Resource Include="Underline.png" />
+  </ItemGroup>
+
+</Project>
